@@ -1,0 +1,61 @@
+h1 {
+    color: white;
+    font-family: cursive;
+    background-color: ff9400;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+h2 {
+    font-size: medium;
+    font-family: cursive;
+    font-style: italic;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+
+}
+button {
+
+}
+
+.about {
+    
+    text-align: right;
+}
+
+.tb {
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    
+}
+
+.btn {
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.bx {
+    background-color: ivory;
+    margin: 10px 400px 400px 400px;
+    font-family: cursive;
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+    border-radius: 40px 80px / 80px 40px;
+
+}
+
+.bg {
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    margin: 10px 300px 300px 300px;
+    background-color: ivory;
+    border-radius: 40px 80px / 80px 40px;
+}
+
+.bg2 {
+    font-family: cursive;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    margin: 10px 300px 300px 300px;
+    background-color: ivory;
+    border-radius: 40px 80px / 80px 40px;
+}

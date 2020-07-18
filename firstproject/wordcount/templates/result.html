@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/test.css' %}">
+</head>
+<body bgcolor="moccasin">
+    <h1>Wordcount!!</h1> 
+    <br>
+<div class="bg2">
+<p>당신이 입력한 텍스트는 {{total}}로 구성되어 있습니다.</p>
+<h3>입력한 텍스트</h3>
+{{full}}
+<h3>단어카운트</h3>
+{% for word, count in dictionary %}
+
+{{word}} : {{count}}
+
+{%endfor%}
+<br>
+<br>
+<button onclick="location.href='{%url 'home' %}'">다시하기</button>
+</div>
+</body>

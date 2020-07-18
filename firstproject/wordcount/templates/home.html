@@ -1,0 +1,24 @@
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/test.css' %}">
+</head>
+<body bgcolor="moccasin">
+    <h1>Wordcount!!</h1>  
+</body>
+
+<div class="about">
+    <a href="{%url 'about'%}">about.</a>
+</div>
+<div class="bg">
+    <h2>Please enter text.</h2>
+    <form action="{%url 'result'%}">
+      <textarea cols="60" rows="15" name="fulltext"></textarea>
+      <br>
+      <br>
+      <input type="submit" value="Count">
+    </div>
+
+</form>
+
+</html>
